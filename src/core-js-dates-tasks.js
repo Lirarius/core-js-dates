@@ -243,7 +243,7 @@ function getWeekNumberByDate(date) {
 function getNextFridayThe13th(date) {
   const dateData = new Date(date);
 
-  while (true) {
+  for (;;) {
     const year = dateData.getFullYear();
     const month = dateData.getMonth();
 
